@@ -105,7 +105,7 @@ ul {
 .box {
 
     width: 160px;
-    height: 170px;
+    height: 160px;
     border: 4px solid #3882F6;
     border-radius: 15px;
 }
@@ -145,10 +145,37 @@ ul {
     color: #727375;
 }
 
+/* -- SECTION QUOTE -- */
 
+.quote {
 
+    height: 430px;
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 
+.quote-text {
 
+    width: 750px;
+    color: #1F3937;
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+}
+
+.quote-signature {
+
+    width: 700px;
+    font-size: 18px;
+    font-weight: bold;
+    display: flex;
+    justify-content: flex-end;
+}
+
+/* -- SECTION CALL TO ACTION -- */
 
 
 
