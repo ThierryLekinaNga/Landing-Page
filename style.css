@@ -22,7 +22,7 @@ header {
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: baseline;
-    height: 500px;
+    height: 525px;
     max-width: 1060px;
 }
 
@@ -30,6 +30,7 @@ header {
 
     font-size: 24px;
     color: #F9FAF8;
+    font-weight: bolder;
 }
 
 .header-link-text {
@@ -52,7 +53,7 @@ header {
 .hero-main-text {
 
     font-size: 48px;
-    font-weight: bold;
+    font-weight: bolder;
     color: #F9FAF8;
 }
 
@@ -101,7 +102,48 @@ ul {
 
 /* -- SECTION INFORMATION -- */
 
+.box {
 
+    width: 160px;
+    height: 170px;
+    border: 4px solid #3882F6;
+    border-radius: 15px;
+}
+
+.information {
+
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.boxes,
+.info {
+
+    display: flex;
+    gap: 50px;
+}
+
+.information-header-text {
+
+    height: 150px;
+    font-size: 36px;
+    font-weight:bolder;
+    color: #1F2937;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.subtext {
+
+    margin-top: 10px;
+    width: 170px;
+    text-align: center;
+    font-size: 18px;
+    color: #727375;
+}
 
 
 
